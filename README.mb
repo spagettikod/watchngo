@@ -1,0 +1,11 @@
+# watchngo
+Basic utility that monitor a directory and runs a command when changes
+are detected.
+
+I use it to recompile on changes when developing Go web services. Another
+usage is to precompile Handlebars templates when developing web applications.
+
+## Install
+
+
+## Usage
