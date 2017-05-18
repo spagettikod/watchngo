@@ -130,7 +130,10 @@ func scan(dir string) (files map[string]time.Time, err error) {
 }
 
 func usage() {
-	fmt.Println("usage: watchngo DIRECTORY COMMAND")
+	fmt.Println("usage: watchngo [flags] DIRECTORY COMMAND")
+	fmt.Println("")
+	fmt.Println("flags:")
+	fmt.Println("  -v	verbose, watchngo outputmore output than what comes from stdout and stderr")
 	fmt.Println("")
 	fmt.Println("Watches DIRECTORY and runs COMMAND when changes are detected.")
 	os.Exit(1)
