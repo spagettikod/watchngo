@@ -14,7 +14,7 @@ Download and extract the latest version for MacOS with this command:
 ## Usage
 ```watchngo goweb goweb/run.sh```
 
-The above example monitors the directory ```goweb```, if files or folders are modified, deleted or added to ```goweb``` the script ```run.sh``` will execute.
+The above example monitors the directory ```goweb```, if files or directories are modified, deleted or added to ```goweb``` the script ```run.sh``` will execute.
 
 * watchngo checks for changes every second
 * each check only triggers one run of the script eventhough more than one file or directory is modified
