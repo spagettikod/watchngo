@@ -2,7 +2,7 @@
 I use this watchngo setup when developing web services in Go.
 
 ## Usage
-watchngo goweb goweb/run.sh
+`watchngo goweb goweb/run.sh`
 
 Make sure you don't run the script in the goweb directory since
 temporary files are created in your current directory. These
