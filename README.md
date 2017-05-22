@@ -20,7 +20,7 @@ The above example monitors the directory ```goweb```, if files or directories ar
 * each check only triggers one run of the script eventhough more than one file or directory is modified
 * stdout and stderr from the script will be passed on to stdout or stderr by watchngo
 * use the ```-v``` flag while developing your script to see what watchngo is doing
-* make sure you script doesn't change files within the directory you are watching.
+* make sure you script doesn't change files within the directory you are watching
 
 See ```_examples``` folder for working examples recompiling and restarting a Go project when
 files change.
